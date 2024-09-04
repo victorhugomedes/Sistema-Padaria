@@ -1,4 +1,4 @@
-def produto_bebida():
+def produto_bebida(): #função menu das escolhas de bebidas 
     while True:
         print("---- Bebidas ----")
         print("Digite (0) para voltar para o cardápio!")
@@ -35,7 +35,7 @@ def produto_bebida():
             print("Opção inválida! Tente novamente.\n")
 
 
-def produto_doce():
+def produto_doce(): #Função menu das escolhas dos doces
     while True:
         print("---- Doces ----")
         print("Digite (0) para voltar para o cardápio!")
@@ -72,7 +72,7 @@ def produto_doce():
             print("Opção inválida! Tente novamente.\n")
 
 
-def produto_salgado():
+def produto_salgado(): #Função menu das escolhas dos salgados 
     while True:
         print("---- Salgados ----")
         print("Digite (0) para voltar para o cardápio!")
@@ -114,7 +114,7 @@ def produto_salgado():
             print("Opção inválida! Tente novamente.\n")
 
 
-def produto_pao():
+def produto_pao(): #Função menu das escolhas dos pães
     while True:
         print("---- Pães ----")
         print("Digite (0) para voltar para o cardápio!")
@@ -156,8 +156,8 @@ def produto_pao():
             print("Opção inválida! Tente novamente.\n")
 
 
-def cardapio_menu():
-    while True:
+def cardapio_menu(): #Função menu príncipal - cardápio
+    while True: #Laço de repetição do menu
         print("----------- Bem vindo ao sistema da padaria -------------")
         print("---- Cardápio ----")
         print("Digite (1) para escolher os pães")
